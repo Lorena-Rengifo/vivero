@@ -1,0 +1,15 @@
+# Validar si el tipo de dato Código es válido
+
+def es-numerico(cadena):
+	try:
+		int(cadena)
+		retunr True
+	except ValueError:
+		return False
+
+numero = input('Escriba dos números enteros: ')
+
+if es_numerico(numero):
+	print('Ha digitado un valor válido.')
+else:
+	print('El valor digitado no corresponde con un número.')
