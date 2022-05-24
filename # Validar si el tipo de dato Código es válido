@@ -12,4 +12,4 @@ numero = input('Escriba dos números enteros: ')
 if es_numerico(numero):
 	print('Ha digitado un valor válido.')
 else:
-	print('El valor digitado no corresponde con un número.')
+	print('El valor digitado no corresponde con los número.')
