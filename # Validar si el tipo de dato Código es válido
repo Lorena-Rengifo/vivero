@@ -7,9 +7,9 @@ def es-numerico(cadena):
 	except ValueError:
 		return False
 
-numero = input('Escriba dos números enteros: ')
+numero = input('Escriba dos números para el código del Vivero: ')
 
 if es_numerico(numero):
 	print('Ha digitado un valor válido.')
 else:
-	print('El valor digitado no corresponde con un número.')
+	print('Los valores digitados no corresponden al código.')
